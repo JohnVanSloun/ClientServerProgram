@@ -1,0 +1,25 @@
+/*test machine: CSEL-LINDL102-32
+
+date: 05/02/24
+name: Sharmarke Ahmed, Bradley Johnson, John Van Sloun
+x500: ahme0344, joh22202, vansl060 */
+
+Contributions:
+
+Sharmarke Ahmed: server.c, handleClients.c, handleClients.h, server.h, helped fix issues in client.c
+Bradley Johnson: parts of client.c and server.c, assisted with bug fixing
+John Van Sloun: client.c main(), traverseFS(), recursiveTraverseFS(), timestamp(), calculateLetterCount(), convertLetterCount()
+
+Test Cases:
+All of the folders in the Testcases/ folder were tested.
+
+Known Bugs: 
+N/A
+
+Instructions: 
+Open two terminals, one terminal should be located in p5/server, and another terminal should be located in p5/client
+Run "make" for both shells.
+Then, for the shell containing the server executable, input "./server [num_clients]" into the shell.
+Lastly, for the shell containing the client executable, input "./client [input_folder_path] [num_clients]"
+
+The input folder path can be absolute or relative to the client executable file.
