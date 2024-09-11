@@ -1,9 +1,3 @@
-/*test machine: CSEL-LINDL102-32
-
-date: 05/02/24
-name: Sharmarke Ahmed, Bradley Johnson, John Van Sloun
-x500: ahme0344, joh22202, vansl060 */
-
 Contributions:
 
 Sharmarke Ahmed: server.c, handleClients.c, handleClients.h, server.h, helped fix issues in client.c
